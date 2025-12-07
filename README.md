@@ -1,8 +1,19 @@
 # Card Information Extractor
 
-This is a small utility for practising the gemini image recognization to extract the text information from a card image, such as an ID card. 
-However, for a product processing ID cards, there'd be some security concerns with this way. Therefore, for ID card management, please consider other solutions, 
-such as Google Cloud Document AI(DocAI), AWS Intelligent Document Processing(IDP), etc.  
+This utility demonstrates a straightforward approach to using the Gemini API's image recognition capabilities. Its primary function is to extract text information (via OCR and document understanding) from an image, such as a sample ID card.
+
+## Security Warning for Production Use
+This utility is for demonstration and practice only.
+
+Using a general-purpose Large Language Model (LLM) like Gemini for processing sensitive Identity Documents (IDs) in a production environment introduces significant security and compliance risks.
+
+For enterprise-level, secure, and compliant ID card management and data extraction, please consider specialized document processing solutions:
+
+* Google Cloud Document AI (DocAI)
+
+* AWS Intelligent Document Processing (IDP)
+
+* Other dedicated identity verification services
 
 ## Configuration
 
